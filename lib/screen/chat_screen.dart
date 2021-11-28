@@ -4,8 +4,6 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-import 'messages.dart';
-
 class ScreenChat extends StatefulWidget {
   final UserCredential user;
 

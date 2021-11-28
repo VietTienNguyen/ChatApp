@@ -1,5 +1,4 @@
 import 'package:chatapp/screen/chat_screen.dart';
-import 'package:chatapp/screen/screen_profile.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -12,7 +11,6 @@ class _MyHomePageState extends State<MyHomePage> {
   int _selecter=0;
   List<Widget> items=[
     ScreenChat(),
-    ScreenProfile()
   ];
   @override
   Widget build(BuildContext context) {
